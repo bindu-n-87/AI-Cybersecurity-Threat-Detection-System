@@ -2,7 +2,6 @@ import joblib
 from sklearn.ensemble import IsolationForest, RandomForestClassifier
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 
-
 def train_isolation_forest(X):
     print("\nTraining Isolation Forest...")
 
