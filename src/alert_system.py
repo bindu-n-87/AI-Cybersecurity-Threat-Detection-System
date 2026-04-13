@@ -2,7 +2,6 @@ import pandas as pd
 import datetime
 import os
 
-
 os.makedirs("outputs", exist_ok=True)
 
 def generate_alerts(anomaly_preds, y_true):
