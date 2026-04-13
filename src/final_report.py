@@ -16,7 +16,7 @@ def generate_report(y, y_pred, alerts):
     print(f"Generated Alerts: {alerts_count}")
 
     print("\nSystem Performance Summary Complete")
-
+    
     # Save report
     os.makedirs("outputs", exist_ok=True)
 
