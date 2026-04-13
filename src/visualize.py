@@ -5,7 +5,6 @@ from sklearn.metrics import confusion_matrix
 
 os.makedirs("outputs", exist_ok=True)
 
-
 def plot_confusion_matrix(y_true, y_pred):
     cm = confusion_matrix(y_true, y_pred)
 
